@@ -10,18 +10,6 @@ import (
 	"strings"
 )
 
-/* Primeiro item pode estar em primeiro? alguma regra impede?
-Segundo: anterior pode vir antes? Alguma página deveria vir antes?
-
-
-um map para anteriores e outro para posteriores
-
-X numero deveria estar antes de Y? Sim, reprova
-
-i=0 -> Existe alguma regra com i0 como posterior e algum item i0+ anterior?
-
-*/
-
 var posterioresDe = make(map[string][]string)
 
 func main() {
